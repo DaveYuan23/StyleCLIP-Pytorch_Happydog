@@ -25,11 +25,7 @@ A simple approach for leveraging CLIP to guide image manipulation is through dir
    - A pre-trained CLIP model.
 
 2. **Loss Function**:
-
-$$
-\text{arg min} \ D_{\text{CLIP}}(G(w), t) + \lambda_{L2} \| w - w_s \|_2 + \lambda_{ID} L_{ID}(w), \quad w \in W^+
-$$
-
+$$\text{arg min} \ D_{\text{CLIP}}(G(w), t) + \lambda_{L2} \| w - w_s \|_2 + \lambda_{ID} L_{ID}(w), \quad w \in W^+$$
    The loss function consists of three parts:
    - **CLIP Loss** $$\( D_{clip} \)$$: This calculates the cosine distance between the CLIP embeddings of the text and image arguments, where $$G$$ is a pre-trained StyleGAN generator and $$t$$ is the text prompt.
    - **L2 Norm**: This part calculates the L2 distance between the source latent code $$w_s$$ and the target latent code $$w$$.
