@@ -8,9 +8,7 @@
 ![Happy Dog Image 3](final_photo/final_result3.jpg)
 
 ### Videos
-[![Happy Dogs Video](final_photo/final_result2.jpg)](result/out.mp4)  
-*Click on the image above to watch the video showcasing happy dogs!*
-https://github.com/DaveYuan23/StyleCLIP-Pytorch_Happydog/issues/1#issue-2576879122
+https://github.com/user-attachments/assets/503fa6ce-b7ea-4841-b23a-087aabfd45d1
 
 ## Latent Optimization Step
 
