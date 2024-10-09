@@ -66,6 +66,6 @@ Clone the StyleGAN repository:
 
 1. [stylegan2-ada-pytorch](https://github.com/NVlabs/stylegan2-ada-pytorch) StyleGAN2-ADA — Official PyTorch implementation
 
-2. [encoder for editing]([https://github.com/NVlabs/stylegan2-ada-pytorch](https://github.com/omertov/encoder4editing)) e4e — encoder for editing
+2. [encoder for editing](https://github.com/omertov/encoder4editing) e4e — encoder for editing
 
 3. [CLIP](https://github.com/openai/CLIP)
