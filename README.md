@@ -64,10 +64,8 @@ Clone the StyleGAN repository:
 
 ## References
 
-1. [stylegan2-ada-pytorch](https://github.com/NVlabs/stylegan2-ada-pytorch)
+1. [stylegan2-ada-pytorch](https://github.com/NVlabs/stylegan2-ada-pytorch) StyleGAN2-ADA — Official PyTorch implementation
 
-3. **StyleGAN: A Style-Based Generator Architecture for Generative Adversarial Networks**  
-   [Link to Paper](https://arxiv.org/abs/1812.04948)
+2. [encoder for editing]([https://github.com/NVlabs/stylegan2-ada-pytorch](https://github.com/omertov/encoder4editing)) e4e — encoder for editing
 
-4. **ArcFace: Additive Angular Margin Loss for Deep Face Recognition**  
-   [Link to Paper](https://arxiv.org/abs/1801.07698)
+3. [CLIP](https://github.com/openai/CLIP)
