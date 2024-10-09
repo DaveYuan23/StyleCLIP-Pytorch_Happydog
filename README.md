@@ -32,7 +32,7 @@ A simple approach for leveraging CLIP to guide image manipulation is through dir
    - **Identity Loss**: Ensures that the identity of the image remains unchanged while allowing modifications to other visual features (e.g., hairstyle, expression, presence of glasses, etc.). The identity loss is calculated using a pre-trained ArcFace network for face recognition.
 
 3. **Finding the Optimized $$w$$**:
-   We find the optimized $$w$$ by solving the optimization problem through gradient descent. The gradient of the objective function is backpropagated while freezing the pre-trained StyleGAN and CLIP models.
+   We find the optimized $$w$$ by solving the optimization problem through gradient descent. The gradient of the objective function is backpropagated while freezing the pre-trained StyleGAN and CLIP models. Typically, using an epoch count of 150 to 250 will yield decent results. The $\lambda 2$ parameter usually ranges from 0.02 to 0.06, depending on the extent to which you want to change your photo. The $\lambda_ID$ parameter is only appied when editing human faces.
 
 ## Getting Started
 
