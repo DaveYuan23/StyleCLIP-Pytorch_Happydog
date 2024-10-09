@@ -64,7 +64,7 @@ Clone the StyleGAN repository:
 
 ## References
 
-1. [stylegan2-ada-pytorch]([https://github.com/username/another-repo](https://github.com/NVlabs/stylegan2-ada-pytorch))
+1. [stylegan2-ada-pytorch](https://github.com/NVlabs/stylegan2-ada-pytorch)
 
 3. **StyleGAN: A Style-Based Generator Architecture for Generative Adversarial Networks**  
    [Link to Paper](https://arxiv.org/abs/1812.04948)
