@@ -8,7 +8,7 @@
 ![Happy Dog Image 3](final_photo/final_result3.jpg)
 
 ### Videos
-[![Happy Dogs Video](path/to/thumbnail.jpg)](path/to/video.mp4)  
+[![Happy Dogs Video](final_photo/final_result2.jpg)](final/out.mp4)  
 *Click on the image above to watch the video showcasing happy dogs!*
 
 ## Latent Optimization Step
