@@ -64,11 +64,10 @@ Clone the StyleGAN repository:
 
 ## References
 
-1. **CLIP: Connecting Text and Images**  
-   [Link to Paper](https://arxiv.org/abs/2103.00020)
+1. [stylegan2-ada-pytorch]([https://github.com/username/another-repo](https://github.com/NVlabs/stylegan2-ada-pytorch))
 
-2. **StyleGAN: A Style-Based Generator Architecture for Generative Adversarial Networks**  
+3. **StyleGAN: A Style-Based Generator Architecture for Generative Adversarial Networks**  
    [Link to Paper](https://arxiv.org/abs/1812.04948)
 
-3. **ArcFace: Additive Angular Margin Loss for Deep Face Recognition**  
+4. **ArcFace: Additive Angular Margin Loss for Deep Face Recognition**  
    [Link to Paper](https://arxiv.org/abs/1801.07698)
