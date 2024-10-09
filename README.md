@@ -8,8 +8,11 @@
 
 ### Videos
 video 1
+
 https://github.com/user-attachments/assets/503fa6ce-b7ea-4841-b23a-087aabfd45d1
+
 video 2
+
 https://github.com/user-attachments/assets/7c1ee0cc-57ff-4040-83fa-8a52a59627dd
 
 ## Latent Optimization Step
