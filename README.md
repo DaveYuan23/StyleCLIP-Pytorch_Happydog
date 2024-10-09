@@ -1,7 +1,7 @@
 # StyleCLIP-Pytorch_Happydog
 
 ## Results Showcase
-
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
 ### Images
 ![Happy Dog Image 1](path/to/image1.jpg)
 ![Happy Dog Image 2](path/to/image2.jpg)
