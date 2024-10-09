@@ -43,3 +43,28 @@ To install the pre-trained CLIP model, run the following command:
 
 ```bash
 pip install git+https://github.com/openai/CLIP.git
+```
+### Install Ninja
+To install Ninja, execute the following commands:
+```bash
+!wget https://github.com/ninja-build/ninja/releases/download/v1.8.2/ninja-linux.zip
+!sudo unzip ninja-linux.zip -d /usr/local/bin/
+!sudo update-alternatives --install /usr/bin/ninja ninja /usr/local/bin/ninja 1 --force
+```
+### Get Pre-trained StyleGAN
+Clone the StyleGAN repository:
+```bash
+!git clone https://github.com/NVlabs/stylegan2-ada-pytorch.git
+%cd stylegan2-ada-pytorch
+```
+
+## References
+
+1. **CLIP: Connecting Text and Images**  
+   [Link to Paper](https://arxiv.org/abs/2103.00020)
+
+2. **StyleGAN: A Style-Based Generator Architecture for Generative Adversarial Networks**  
+   [Link to Paper](https://arxiv.org/abs/1812.04948)
+
+3. **ArcFace: Additive Angular Margin Loss for Deep Face Recognition**  
+   [Link to Paper](https://arxiv.org/abs/1801.07698)
