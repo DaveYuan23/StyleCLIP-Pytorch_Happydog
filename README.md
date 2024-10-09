@@ -4,8 +4,8 @@
 <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
 ### Images
 ![Happy Dog Image 1](final_photo/final_result.jpg)
-![Happy Dog Image 2]("final_photo/final_result 2.jpg")
-![Happy Dog Image 3](path/to/image3.jpg)
+![Happy Dog Image 2](final_photo/final_result2.jpg)
+![Happy Dog Image 3](final_photo/final_result3.jpg)
 
 ### Videos
 [![Happy Dogs Video](path/to/thumbnail.jpg)](path/to/video.mp4)  
