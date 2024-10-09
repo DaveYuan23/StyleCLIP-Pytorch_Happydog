@@ -56,6 +56,13 @@ Clone the StyleGAN repository:
 %cd stylegan2-ada-pytorch
 ```
 
+## Problems Encountered During This Project
+
+1. **Using Pre-trained StyleGAN Model**: Install Ninja and modify the code in `torch.utils`.
+2. **Using Mac**: Unable to train the network due to an unknown reason. The error message was: Expected scalar_type == ScalarType::Float || inputTensor.scalar_type() == ScalarType::Int || scalar_type == ScalarType::Bool to be true, but got false.
+3. **CLIP Installation**: Install directly from OpenAI's CLIP to avoid errors. Do not use `pip install CLIP`.
+4. **Loss Function Parameters**: Adjust the parameters in the loss function to achieve the ideal result.
+
 ## References
 
 1. [stylegan2-ada-pytorch](https://github.com/NVlabs/stylegan2-ada-pytorch) StyleGAN2-ADA — Official PyTorch implementation
