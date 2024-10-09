@@ -31,7 +31,7 @@ A simple approach for leveraging CLIP to guide image manipulation is through dir
    - **L2 Norm**: This part calculates the L2 distance between the source latent code $$w_s$$ and the target latent code $$w$$.
    - **Identity Loss**: Ensures that the identity of the image remains unchanged while allowing modifications to other visual features (e.g., hairstyle, expression, presence of glasses, etc.). The identity loss is calculated using a pre-trained ArcFace network for face recognition.
 
-4. **Finding the Optimized $$w$$ **:
+3. **Finding the Optimized $$w$$**:
    We find the optimized $$w$$ by solving the optimization problem through gradient descent. The gradient of the objective function is backpropagated while freezing the pre-trained StyleGAN and CLIP models.
 
 ## Getting Started
