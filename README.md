@@ -22,8 +22,8 @@ A simple approach for leveraging CLIP to guide image manipulation is through dir
 
 2. **Loss Function**:
    $$
-   \text{arg min} \ D_{\text{CLIP}}(G(w), t) + \lambda_{L2} \| w - w_s \|_2 + \lambda_{ID} L_{ID}(w), 
-   \quad w \in W^+
+   ![Optimization Formula](https://latex.codecogs.com/png.latex?\text{arg%20min}%20D_{\text{CLIP}}(G(w),%20t)%20+%20\lambda_{L2}%20\|%20w%20-%20w_s%20\|_2%20+%20\lambda_{ID}%20L_{ID}(w),%20w%20\in%20W^+)
+
    $$
    The loss function consists of three parts:
    - **CLIP Loss** \( D_{clip} \): This calculates the cosine distance between the CLIP embeddings of the text and image arguments, where \( G \) is a pre-trained StyleGAN generator and \( t \) is the text prompt.
