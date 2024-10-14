@@ -66,7 +66,7 @@ Clone the StyleGAN repository:
 # Global Directions for Image Manipulation Using Text Prompts
 
 ## Objective
-The goal is to manipulate an image based on a given text prompt, $ t $, that indicates a desired attribute. Specifically, we aim to find a manipulation direction, $ \Delta s $, such that generating an image $ G(s + \alpha \Delta s) $ produces a result consistent with the desired manipulation encoded in the text prompt.
+The goal is to manipulate an image based on a given text prompt, $t$, that indicates a desired attribute. Specifically, we aim to find a manipulation direction, $\Delta s$, such that generating an image $G(s + \alpha \Delta s)$ produces a result consistent with the desired manipulation encoded in the text prompt.
 
 ## Approach
 We map any text prompt $ \Delta t $ into a single, global direction in the style space of StyleGAN.
