@@ -71,6 +71,12 @@ Clone the StyleGAN repository:
 ![Happy Lion Image](final_photo/Lion.png)
 ![Happy Fox Image](final_photo/Fox.png)
 ![Happy Tigger Image](final_photo/Tigger.png)
+*Figure 1: Wild animal image manipulation using the global direction method. The neutral class is 'original' and the target class is 'happy'.*
+
+![Restlye e4e](final_photo/e4e_wolf.png)
+*Figure 2: Wild animal image inverted by restyle e4e.*
+
+
 
 ## Objective
 The goal is to manipulate an image based on a given text prompt, $t$, that indicates a desired attribute. Specifically, we aim to find a manipulation direction, $\Delta s$, such that generating an image $G(s + \alpha \Delta s)$ produces a result consistent with the desired manipulation encoded in the text prompt.
