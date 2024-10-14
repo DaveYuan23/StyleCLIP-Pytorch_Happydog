@@ -65,6 +65,13 @@ Clone the StyleGAN repository:
 
 # Global Directions for Image Manipulation Using Text Prompts
 
+## Results Showcase
+### Images
+![Happy Wolf Image](final_photo/Wolf.jpg)
+![Happy Lion Image](final_photo/Lion.jpg)
+![Happy Fox Image](final_photo/Fox.jpg)
+![Happy Tigger Image](final_photo/Tigger.jpg)
+
 ## Objective
 The goal is to manipulate an image based on a given text prompt, $t$, that indicates a desired attribute. Specifically, we aim to find a manipulation direction, $\Delta s$, such that generating an image $G(s + \alpha \Delta s)$ produces a result consistent with the desired manipulation encoded in the text prompt.
 
@@ -88,8 +95,6 @@ We map any text prompt $\Delta t$ into a single, global direction in the style s
 
 4. **Apply Manipulation Direction $\Delta s$**  
    Apply the computed manipulation direction $\Delta s$ to the intended image, generating a modified image consistent with the desired attribute indicated by the text prompt.
-
-### Formal Expression
 
 $$
 \Delta s = \begin{cases}
