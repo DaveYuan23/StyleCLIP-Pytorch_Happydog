@@ -104,8 +104,14 @@ In this formula, $\Delta i_c$ represents the channel-wise change in CLIP image e
 
 ## References
 
-1. [stylegan2-ada-pytorch](https://github.com/NVlabs/stylegan2-ada-pytorch) StyleGAN2-ADA — Official PyTorch implementation
+1. [StyleGAN2-ada-pytorch](https://github.com/NVlabs/stylegan2-ada-pytorch) StyleGAN2-ADA — Official PyTorch implementation
 
-2. [encoder for editing](https://github.com/omertov/encoder4editing) e4e — encoder for editing
+2. [StylegGAN2](https://github.com/NVlabs/stylegan2) StyleGAN2 - Official TensorFlow Implementation
 
-3. [CLIP](https://github.com/openai/CLIP)
+3. [StyleGAN2-Pytorch](https://github.com/rosinality/stylegan2-pytorch) StyleGAN2 - Pytorch
+
+4. [Encoder for Editing](https://github.com/omertov/encoder4editing) e4e — encoder for editing
+
+5. [CLIP](https://github.com/openai/CLIP) CLIP - Contrastive Language-Image Pretraining
+
+6. [restyle-encoder](https://github.com/yuval-alaluf/restyle-encoder) Official Implementation for "ReStyle: A Residual-Based StyleGAN Encoder via Iterative Refinement"
