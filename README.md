@@ -67,10 +67,10 @@ Clone the StyleGAN repository:
 
 ## Results Showcase
 ### Images
-![Happy Wolf Image](final_photo/Wolf.jpg)
-![Happy Lion Image](final_photo/Lion.jpg)
-![Happy Fox Image](final_photo/Fox.jpg)
-![Happy Tigger Image](final_photo/Tigger.jpg)
+![Happy Wolf Image](final_photo/Wolf.png)
+![Happy Lion Image](final_photo/Lion.png)
+![Happy Fox Image](final_photo/Fox.png)
+![Happy Tigger Image](final_photo/Tigger.png)
 
 ## Objective
 The goal is to manipulate an image based on a given text prompt, $t$, that indicates a desired attribute. Specifically, we aim to find a manipulation direction, $\Delta s$, such that generating an image $G(s + \alpha \Delta s)$ produces a result consistent with the desired manipulation encoded in the text prompt.
