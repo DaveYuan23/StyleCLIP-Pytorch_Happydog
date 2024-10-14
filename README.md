@@ -112,7 +112,6 @@ $$
 In this formula, $\Delta i_c$ represents the channel-wise change in CLIP image embeddings, $\Delta i$ is the text-based direction, and $\beta$ is a threshold to ensure significant manipulation.
 
 
-
 ## References
 
 1. [StyleGAN2-ada-pytorch](https://github.com/NVlabs/stylegan2-ada-pytorch) StyleGAN2-ADA — Official PyTorch implementation
