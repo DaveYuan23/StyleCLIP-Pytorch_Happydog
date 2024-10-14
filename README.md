@@ -63,6 +63,45 @@ Clone the StyleGAN repository:
 3. **CLIP Installation**: Install directly from OpenAI's CLIP to avoid errors. Do not use `pip install CLIP`.
 4. **Loss Function Parameters**: Adjust the parameters in the loss function to achieve the ideal result.
 
+# Global Directions for Image Manipulation Using Text Prompts
+
+## Objective
+The goal is to manipulate an image based on a given text prompt, $ t $, that indicates a desired attribute. Specifically, we aim to find a manipulation direction, $ \Delta s $, such that generating an image $ G(s + \alpha \Delta s) $ produces a result consistent with the desired manipulation encoded in the text prompt.
+
+## Approach
+We map any text prompt $ \Delta t $ into a single, global direction in the style space of StyleGAN.
+
+### Key Intuitions
+1. In well-trained regions of the CLIP model, we anticipate that similar changes in image embeddings and text embeddings correspond to strong cosine similarity.
+2. Given two images, $ G(s) $ and $ G(s + \alpha \Delta s) $, their respective CLIP embeddings, $i$ and $ i + \Delta i $, can be computed. The text prompt is encoded as $ \Delta t $. By assessing the cosine similarity between $ \Delta t $ and $\Delta i$, we can determine the manipulation direction, $\Delta s$.
+
+### Methodology
+
+1. **Natural Language Instruction $(\Delta t )$**  
+   Using a pre-defined text prompt bank (e.g., ImageNet), we generate phrases such as "a bad photo of \{\}", "a photo of a small \{\}," etc., to produce average embeddings for both the target and neutral classes. These embeddings allow us to calculate the normalized difference.
+
+2. **Channel-Wise Manipulation**  
+   Perform channel-wise manipulation, $ \alpha \Delta s $, on the style code $ s $ over several image pairs.
+
+3. **Channel Relevance Calculation**  
+   For each channel in the StyleGAN style space, project the CLIP space direction $ \Delta i_c $ onto the corresponding manipulation direction $ \Delta i $ to calculate the relevance.
+
+4. **Apply Manipulation Direction \( \Delta s \)**  
+   Apply the computed manipulation direction $ \Delta s $ to the intended image, generating a modified image consistent with the desired attribute indicated by the text prompt.
+
+### Formal Expression
+
+$$
+\Delta s = \begin{cases}
+\Delta i_c \cdot \Delta i & \text{if } \Delta i_c \cdot \Delta i \geq \beta \\
+0 & \text{otherwise}
+\end{cases}
+$$
+
+In this formula, $ \Delta i_c $ represents the channel-wise change in CLIP image embeddings, $ \Delta i $ is the text-based direction, and $ \beta $ is a threshold to ensure significant manipulation.
+
+
+
 ## References
 
 1. [stylegan2-ada-pytorch](https://github.com/NVlabs/stylegan2-ada-pytorch) StyleGAN2-ADA — Official PyTorch implementation
