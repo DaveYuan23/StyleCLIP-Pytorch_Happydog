@@ -1,5 +1,5 @@
 # StyleCLIP-Pytorch_Happydog
-
+This is an implementation of "StyleCLIP: Text-Driven Manipulation of StyleGAN Imagery." Here is the official GitHub link: [StyleCLIP](https://github.com/orpatashnik/StyleCLIP)
 ## Results Showcase
 ### Images
 ![Happy Dog Image 1](final_photo/final_result.jpg)
@@ -114,14 +114,16 @@ In this formula, $\Delta i_c$ represents the channel-wise change in CLIP image e
 
 ## References
 
-1. [StyleGAN2-ada-pytorch](https://github.com/NVlabs/stylegan2-ada-pytorch) StyleGAN2-ADA — Official PyTorch implementation
+1. [StyleCLIP](https://github.com/orpatashnik/StyleCLIP) StyleCLIP — Official Implementation for "StyleCLIP: Text-Driven Manipulation of StyleGAN Imagery"
 
-2. [StylegGAN2](https://github.com/NVlabs/stylegan2) StyleGAN2 - Official TensorFlow Implementation
+2. [StyleGAN2-ada-pytorch](https://github.com/NVlabs/stylegan2-ada-pytorch) StyleGAN2-ADA — Official PyTorch implementation
 
-3. [StyleGAN2-Pytorch](https://github.com/rosinality/stylegan2-pytorch) StyleGAN2 - Pytorch
+3. [StylegGAN2](https://github.com/NVlabs/stylegan2) StyleGAN2 - Official TensorFlow Implementation
 
-4. [Encoder for Editing](https://github.com/omertov/encoder4editing) e4e — encoder for editing
+4. [StyleGAN2-Pytorch](https://github.com/rosinality/stylegan2-pytorch) StyleGAN2 - Pytorch
 
-5. [CLIP](https://github.com/openai/CLIP) CLIP - Contrastive Language-Image Pretraining
+5. [Encoder for Editing](https://github.com/omertov/encoder4editing) e4e — encoder for editing
 
-6. [restyle-encoder](https://github.com/yuval-alaluf/restyle-encoder) Official Implementation for "ReStyle: A Residual-Based StyleGAN Encoder via Iterative Refinement"
+6. [CLIP](https://github.com/openai/CLIP) CLIP - Contrastive Language-Image Pretraining
+
+7. [restyle-encoder](https://github.com/yuval-alaluf/restyle-encoder) Official Implementation for "ReStyle: A Residual-Based StyleGAN Encoder via Iterative Refinement"
