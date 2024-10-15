@@ -63,7 +63,7 @@ Clone the StyleGAN repository:
 3. **CLIP Installation**: Install directly from OpenAI's CLIP to avoid errors. Do not use `pip install CLIP`.
 4. **Loss Function Parameters**: Adjust the parameters in the loss function to achieve the ideal result.
 
-# Global Directions for Image Manipulation Using Text Prompts
+# Global Directions Using Text Prompts
 
 ## Results Showcase
 ### Images
