@@ -1,3 +1,9 @@
 [submodule "stylegan2-ada"]
 	path = stylegan2-ada
 	url = https://github.com/NVlabs/stylegan2-ada-pytorch.git
+[submodule "encoder4editing"]
+	path = encoder4editing
+	url = https://github.com/omertov/encoder4editing.git
+[submodule "restyle-encoder"]
+	path = restyle-encoder
+	url = https://github.com/yuval-alaluf/restyle-encoder.git
